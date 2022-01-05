@@ -1,6 +1,6 @@
 .place {
 display: grid;
-grid-template-columns: 46.749% 1fr ;
+grid-template-columns: 46.749% 1fr;
 gap: 48px 40px;
 grid-template-areas:
     "place__title place__website"
