@@ -1,8 +1,12 @@
 .footer__autor {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-color: #FFFFFF;
-margin: 0;
+text-align: end;
+flex-basis: 72%;
+list-style-type: none;
+}
+
+@media screen and (max-width: 425px) {
+.footer__autor {
+padding-top: 48px;
+text-align: left;
+}
 }

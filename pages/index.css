@@ -21,11 +21,11 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/__list_content_info/intro__list_content_info.css);
+@import url(../blocks/intro/__list/__list_content/intro__list_content_info.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/_galery/photo-grid_galery.css);
+@import url(../blocks/photo-grid/__galery/photo-grid__galery.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__image/place__image.css);
@@ -48,6 +48,6 @@
 @import url(../blocks/footer/__autor/footer__autor.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__list/__list_content/footer__list_content.css);
-@import url(../blocks/footer/__autor_copiryte/footer__autor_copiryte.css);
+@import url(../blocks/footer/__autor/__autor_copiryte/footer__autor__autor_copiryte.css);
 
 @import url(../vendor/fonts/fonts.css);
