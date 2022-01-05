@@ -1,0 +1,25 @@
+.cover {
+min-height: 740px;
+padding: 0 48px 92px 48px;
+}
+
+@media screen and (max-width: 1024px) {
+.cover {
+min-height: 640px;
+padding: 0 0 92px 0;
+}
+}
+
+@media screen and (max-width: 768px) {
+.cover {
+min-height: 480px;
+padding-bottom: 88px;
+}
+}
+
+@media screen and (max-width: 425px) {
+.cover {
+min-height: 200px;
+padding-bottom: 64px;
+}
+}

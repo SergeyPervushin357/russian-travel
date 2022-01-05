@@ -1,0 +1,13 @@
+.cover__links-image {
+position:absolute;
+width: 1184px;
+height: 740px;
+
+}
+
+@media screen and (max-width: 1024px) {
+.cover__links-image {
+width: 1024px;
+height: 640px;      
+}
+}

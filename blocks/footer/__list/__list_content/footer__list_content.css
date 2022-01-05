@@ -1,0 +1,13 @@
+.footer__list_content {
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+.footer__list_content {
+display: grid;
+gap: 32px;
+}
+}
