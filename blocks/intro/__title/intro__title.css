@@ -3,15 +3,36 @@ max-width: 100%;
 color: #FFFFFF;
 font-style: normal;
 font-weight: 900;
-font-size: 54px;
+font-size: 3.4vw;
 line-height: 58px;
 margin: 0;
 padding-bottom: 40px;
 }
 
+@media screen and (max-width: 1024px) {
+.intro__title {
+font-size: 5.27vw;
+line-height: 35px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.intro__title {
+font-size: 4.5vw;
+line-height: 35px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.intro__title {
+font-size: 6vw;
+}
+}
+
+
 @media screen and (max-width: 425px) {
 .intro__title {
-font-size: 32px;
+font-size: 7.25vw;
 line-height: 35px;
 }
 }
