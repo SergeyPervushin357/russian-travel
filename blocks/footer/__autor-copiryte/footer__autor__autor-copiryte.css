@@ -1,21 +1,21 @@
 .footer__autor-copiryte {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-color: #FFFFFF;
-margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-.footer__autor-copiryte {
-font-size: 2vw;
-}
+    .footer__autor-copiryte {
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width: 425px) {
-.footer__autor-copiryte {
-line-height: 14px;
-font-size: 14px;
-}
+    .footer__autor-copiryte {
+        line-height: 14px;
+        font-size: 14px;
+    }
 }

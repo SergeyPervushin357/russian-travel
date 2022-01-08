@@ -1,19 +1,19 @@
 .header__lang-link {
-width: 30px;
-height: 28px;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-align: right;
-color: #FFFFFF;
-text-decoration: underline;
-padding-right: 18px;
+    width: 30px;
+    height: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding-right: 18px;
 }
 
 @media screen and (max-width: 425px) {
-.header__lang-link {
-font-size: 18px;
-line-height: 20px;
-}
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

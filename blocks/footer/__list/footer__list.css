@@ -1,19 +1,19 @@
 .footer__list {
-max-width: 100%;
-display: flex;
-margin: 0;
-padding: 0 48px 24px 48px;
+    max-width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0 48px 24px 48px;
 }
 
 @media screen and (max-width: 768px) {
-.footer__list {
-padding: 0 24px 24px 24px;
-}
+    .footer__list {
+        padding: 0 24px 24px 24px;
+    }
 }
 
 @media screen and (max-width: 425px) {
-.footer__list {
-display: grid;
-padding: 0 118px 0 16px;
-}
+    .footer__list {
+        display: grid;
+        padding: 0 118px 0 16px;
+    }
 }

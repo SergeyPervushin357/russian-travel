@@ -1,17 +1,17 @@
 .cover__subtile {
-max-width: 360px;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-margin: 0;
-z-index: 1;
+    max-width: 360px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0;
+    z-index: 1;
 }
 
 @media screen and (max-width: 425px) {
-.cover__subtile {
-font-size: 14px;
-line-height: 16px;
-}
+    .cover__subtile {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

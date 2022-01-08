@@ -1,12 +1,12 @@
 .footer__autor {
-text-align: end;
-flex-basis: 72%;
-list-style-type: none;
+    text-align: end;
+    flex-basis: 72%;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 425px) {
-.footer__autor {
-padding-top: 48px;
-text-align: left;
-}
+    .footer__autor {
+        padding-top: 48px;
+        text-align: left;
+    }
 }
