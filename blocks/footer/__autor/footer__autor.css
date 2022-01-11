@@ -2,10 +2,25 @@
     text-align: end;
     flex-basis: 72%;
     list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .footer__autor {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__autor {
+        line-height: 14px;
+        font-size: 14px;
+        padding-bottom: 24px;
         padding-top: 48px;
         text-align: left;
     }

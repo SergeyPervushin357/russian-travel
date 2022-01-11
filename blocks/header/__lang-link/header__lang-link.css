@@ -1,17 +1,22 @@
 .header__lang-link {
-    width: 30px;
-    height: 28px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 28px;
-    text-align: right;
+    line-height: 29px;
     color: #FFFFFF;
-    text-decoration: underline;
-    padding-right: 18px;
+    text-decoration: none;
 }
 
-@media screen and (max-width: 425px) {
+.header__lang-link:hover {
+    opacity: .8;
+    transition: 0.4s ease-in;
+}
+
+.header__link:last-child {
+    padding-right: 0;
+}
+
+@media screen and (max-width: 320px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;

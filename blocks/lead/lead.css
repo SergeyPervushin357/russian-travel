@@ -1,11 +1,12 @@
 .lead {
     position: relative;
-    max-width: 100%;
+    max-width: 984px;
     padding: 0 148px 92px 148px;
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
+        max-width: 928px;
         padding: 0 48px 92px 48px;
     }
 }
@@ -16,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .lead {
         padding: 0 2px 64px 2px;
     }

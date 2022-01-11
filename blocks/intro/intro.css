@@ -1,12 +1,11 @@
 .intro {
     max-width: 100%;
     padding: 0 0 92px 148px;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        padding: 0 286px 92px 48px;
+        padding: 0 217px 92px 48px;
     }
 }
 
@@ -16,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .intro {
         padding: 0 16px 64px 16px;
     }

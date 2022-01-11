@@ -1,25 +1,23 @@
 .place__title {
-    display: flex;
-    align-items: flex-end;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
     margin: 0;
-    grid-area: place__title;
+    align-self: flex-end;
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
-        font-size: 42px;
+        font-size: 5.47vw;
         line-height: 46px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .place__title {
-        font-size: 32px;
+        font-size: 10vw;
         line-height: 35px;
         padding: 0 16px 0 16px;
     }

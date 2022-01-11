@@ -3,7 +3,7 @@
     color: #FFFFFF;
     font-style: normal;
     font-weight: 900;
-    font-size: 3.4vw;
+    font-size: 54px;
     line-height: 58px;
     margin: 0;
     padding-bottom: 40px;
@@ -12,27 +12,22 @@
 @media screen and (max-width: 1024px) {
     .intro__title {
         font-size: 5.27vw;
-        line-height: 35px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .intro__title {
-        font-size: 4.5vw;
-        line-height: 35px;
+        height: 58px;
+        line-height: 58px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro__title {
-        font-size: 6vw;
+        font-size: 7.03vw;
     }
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .intro__title {
-        font-size: 7.25vw;
+        font-size: 10vw;
         line-height: 35px;
+        height: 70px;
     }
 }

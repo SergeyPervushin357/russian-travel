@@ -8,6 +8,12 @@
     padding-right: 18px;
 }
 
+.footer__link:hover {
+    opacity: .8s;
+    transition: .5s ease-in;
+    color: #DADADA;
+}
+
 @media screen and (max-width: 768px) {
     .footer__link {
         font-size: 2.08vw;
@@ -15,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;

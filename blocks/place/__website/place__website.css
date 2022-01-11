@@ -1,14 +1,13 @@
 .place__website {
-    padding-top: 106px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    grid-area: place__website;
+    align-self: flex-end;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .place__website {
         padding: 0 16px 0 16px;
     }

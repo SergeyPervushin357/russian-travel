@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .footer__list {
         display: grid;
         padding: 0 118px 0 16px;
