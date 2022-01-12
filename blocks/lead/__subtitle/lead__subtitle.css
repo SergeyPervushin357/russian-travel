@@ -6,27 +6,26 @@
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
-    padding: 0 172px 64px 172px;
+    padding-bottom: 64px;
     margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__subtitle {
         font-size: 2.93vw;
-        padding: 0 144px 56px 144px;
+        padding-bottom: 56px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__subtitle {
         font-size: 3.91vw;
-        padding: 0 64px 56px 64px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__subtitle {
-        padding: 0 16px 40px 16px;
+        padding-bottom: 40px;
         font-size: 5vw;
         line-height: 20px;
     }

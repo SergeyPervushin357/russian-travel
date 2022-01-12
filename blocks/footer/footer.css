@@ -1,4 +1,4 @@
-.footer__list {
+.footer {
     max-width: 100%;
     display: flex;
     margin: 0;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .footer__list {
+    .footer {
         padding: 0 24px 24px 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .footer__list {
+    .footer {
         display: grid;
         padding: 0 118px 0 16px;
     }

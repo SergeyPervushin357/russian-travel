@@ -4,10 +4,21 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    word-break: break-all;
 }
 
 .place__link:hover {
     opacity: .8;
     transition: 0.5s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+    .place__link {
+        font-size: 2.34vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__link {
+        font-size: 18px;
+    }
 }

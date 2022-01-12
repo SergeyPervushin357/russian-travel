@@ -2,10 +2,9 @@
     padding-bottom: 26px;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.4vw;
     line-height: 163%;
     color: #FFFFFF;
-    word-break: break-word;
     margin: 0;
 }
 
@@ -13,16 +12,22 @@
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .place__paragraph {
         padding-bottom: 25px;
-        font-size: 16px;
+        font-size: 1.75vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 2.08vw;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
-        padding: 0 16px 25px 16px;
-        word-break: normal;
+        padding: 0 16px 25px;
+        font-size: 5vw;
     }
 }
