@@ -3,6 +3,9 @@
     max-width: 984px;
     padding: 0 148px 92px;
     text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -o-center;
+    text-align: -ms-center;
 }
 
 @media screen and (max-width: 1024px) {
