@@ -10,5 +10,5 @@
 
 **GitHub Pages**
 
-* [Ссылка на проект](https://sergeypervushin357.github.io/russian-travel/index.html)
+* [Ссылка на проект](https://sergeypervushin357.github.io/russian-travel/)
  Проект адапртирован по разные разрешения мониторов а так же мобильных устройств.
